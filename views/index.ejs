@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-  <title>
-    <%= title %>
-  </title>
-  <link rel='stylesheet' href='/css/style.css' />
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title><%= title %></title>
+  <!-- Estas lineas van en los primeros 1024 bytes -->
+
+  <!-- Referencias -->
+  <meta name="author" content="2015 - José A. Pacheco Ondoño - joanpaon@gmail.com" />
+  <meta name="description" content="Plantilla HTML5 + CSS3 + JS" />
+
+  <!-- Ajuste viewport dispositivos móviles -->
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <!-- Icono favicon -->
+  <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+
+  <!-- Hojas de estilo -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/app.css" />
 </head>
 
 <body>
-  <h1><%= title %></h1>
-  <p>Welcome to
-    <%= title %>
-  </p>
+  <div class="h1"><%= title %></div>
+  <p>Bienvenido a <%= title %></p>
 </body>
 
 </html>
