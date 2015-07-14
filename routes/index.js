@@ -16,7 +16,7 @@ var mw = function (req, res, next) {
 
   // Parámetros vista
   var _param = {
-    title: 'Credenciales';
+    title: 'Credenciales'
   };
 
   // Renderizar la vista
